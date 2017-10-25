@@ -11,8 +11,9 @@
         <meta name="keywords" content="acessoria"/>
         <meta name="author" content="Agência Alca"/>
         <link rel="shortcut icon" href="img/favicon.png"> 
+         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+       
         
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
@@ -31,12 +32,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="logo" href="#home"><img src="img/logo.png" height="80px" width="180px"></a>
+                <a class="logo" href="#home"><img src="img/logo.jpg" height="50px"></a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#grupo">Blog</a></li>
-                    <li><a href="coach.php">O COACH</a></li>
+                    <li><a href="#grupo">Blog</a></li>
+                    <li class="active"><a href="coach.php">O COACH</a></li>
                     <li><a href="agenda.php">Agenda</a></li>
                     <li><a href="contato.php">Contato</a></li>
                     <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
