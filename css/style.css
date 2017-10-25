@@ -1,0 +1,90 @@
+#carousel-slider{
+    background-color: #000099;
+    padding: 20px ;
+    color: white;
+    text-align: center;
+}
+.borda{
+    border: 3px solid #322f2f;
+}
+
+.navbar-default .navbar-nav>li>a{
+    border-bottom: #322f2f;
+    color: #000099;
+}
+.blog{
+    padding: 0 0 30px 0;
+}
+#blog .titulos-de-contexto h1{
+    text-align: center;
+    color: #101010;
+    font-size: 30px;
+}
+#post{
+    padding: 30px 10px;
+}
+
+.single_projeto{
+    position:relative;
+    border: 3px solid #fff;
+    text-align: center;
+}
+.single_projeto img{
+    max-height: 100%;
+    width: 100%;
+}
+
+.projeto_overlay {
+    background: #000099;
+    position: absolute;
+    left: 5%;
+    bottom: -25px;
+    width: 90%;
+    height: 15%;
+}
+
+.contato{
+    margin-top:40px;
+    padding: 60px 0 40px;
+    background-color: #000099;
+}
+
+.contato .titulos-de-contexto h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.contato .form-control{
+    background-color: #292d7a;
+    color: white;
+    border: none;
+}
+.contato .btn-default{
+    background-color: black;
+    color: white;
+}
+.contato .informacoes-contato p {
+    padding-bottom: 10px;
+    color: white;
+}
+.contato textarea{
+    max-height: 83px;
+}
+
+/* footer*/
+footer{
+    text-align: center;
+    bottom:0;
+    width:100%;
+    background:#000099;
+}
+footer .copyright{
+    position:relative;
+    font-weight:300;
+    margin:0 auto;
+    padding:5px 0 15px;
+    font-size:14px;
+    line-height:36px;
+    color:#fff;
+}
