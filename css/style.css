@@ -45,10 +45,14 @@ fieldset {
 
 .imagem-slider img{
     position: absolute;
-    left: 45%;
-    top: 15px;
+    left: 40%;
+    top: 10px;
     width: 600px;
+    height: 310px;
+}
 
+.carousel-inner{
+    overflow: visible;
 }
 
 .carousel-control.right,
@@ -133,21 +137,22 @@ fieldset {
     color: white;
 }
 .contato .informacoes-contato p {
-    padding-bottom: 10px;
     color: white;
+    text-align: left;
 }
 .contato textarea{
     max-height: 83px;
 }
 
-/* footer*/
+/* FOOTER */
 footer{
     text-align: center;
-    bottom:0;
-    width:100%;
-    background:#000099;
+    bottom: 0;
+    width: 100%;
+    background: #000099;
 }
 footer .copyright{
+    bottom: 0;
     position:relative;
     font-weight:300;
     margin:0 auto;
@@ -156,6 +161,8 @@ footer .copyright{
     line-height:36px;
     color:#fff;
 }
+/* FIM FOOTER */
+
 @media only screen and (max-width: 768px) {
     .descricao-post p{
         padding: 10px;
@@ -180,7 +187,18 @@ footer .copyright{
         width: 100%;
         z-index: 1;
         opacity: 0.3;
-
+    }
+    .contato .titulos-de-contexto h1{
+        font-size: 25px;
+    }
+    .informacoes-contato{
+         padding-top: 20px;
+         padding-left: 8px;
+         
+    }
+    .informacoes-contato p{
+       
+        
     }
 
 }

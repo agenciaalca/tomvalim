@@ -2,41 +2,60 @@
 <?php include_once 'mail.php'; ?>
 
 <div id="slider" class="slider">
-    <div id="myCarousel" class="carousel carousel-slider" data-ride="carousel">
+    <div id="carousel-example-generic" class="carousel slide carousel-slider" data-ride="carousel">
 
         <!-- Wrapper for slides -->
-        <div  id="carousel-slider" class="carousel-inner ">
-            <div class="container">
-                <div class="item active">
+        <div  id="carousel-slider" class="carousel-inner" role="listbox">
 
-                    <div class="conteudo-slider col-md-4 offset-8">
-<!--                        <div class="borda"></div>-->
-                            <fieldset>
-                                <legend>PALESTRAS</legend> 
-                                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de</p>
-                            </fieldset>
+            <div class="item active">
+                <div class="container">
+                    <div class="conteudo-slider col-md-4">
+                        <fieldset>
+                            <legend>PALESTRAS</legend> 
+                            <p>2. Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de</p>
+                        </fieldset>
                         <br>
                         <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de</p>
                         <br>
-                        <button class="btn btn-default">Saiba Mais</button>
+                        <a href="#" class="btn btn-default">Saiba Mais</a>
                     </div>
-
+                    <div class="imagem-slider">
+                        <img src="img/grupo.png" width="100%">
+                    </div>
                 </div>
             </div>
+            <div class="item">
+                <div class="container">
+                    <div class="conteudo-slider col-md-4">
+                        <fieldset>
+                            <legend>PALESTRAS</legend> 
+                            <p>1. Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de</p>
+                        </fieldset>
+                        <br>
+                        <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de</p>
+                        <br>
+                        <a href="#" class="btn btn-default">Saiba Mais</a>
+                    </div>
+                    <div class="imagem-slider">
+                        <img src="img/grupo.png" width="100%">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
         </div>
-        <div class="imagem-slider">
-            <img src="img/grupo.png" width="100%" height="330px">
-        </div>
-        <!-- Controls -->
-        <a class="left carousel-control" href="#home-carousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#home-carousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
+
+
 </div>
 
 <div class="container">
@@ -155,7 +174,7 @@
             </div>
             <div class="col-md-4">
                 <div class="informacoes-contato">
-                    <div class="informacoes-contato  espaco text-left">
+                    <div class="informacoes-contato">
                         <p><i class="fa fa-envelope" aria-hidden="true"></i> tonvalim@tonvalim.com</p>
                         <p><i class="fa fa-whatsapp" aria-hidden="true"></i> (062) 3636-0111</p>
                         <p><i class="fa fa-globe" aria-hidden="true"></i> Rua 88-B, nº 73, Setor Sul, Goiânia - GO, 74085-030</p>
